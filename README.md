@@ -1,3 +1,20 @@
+
+
+
+The seeders creates the first user, admin, and imports posts for the old website using it's API.
+
+This environment uses sail
+
+Steps to run this demo
+
+Steps to do all tests
+
+App uses Starter kit Breeze for auth
+https://laravel.com/docs/9.x/starter-kits
+
+App uses spatie for RBAC permissions
+https://spatie.be/docs/laravel-permission/v5/introduction
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

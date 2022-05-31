@@ -30,5 +30,10 @@ class PostSeeder extends Seeder
             $newPost->user_id = $admin->id;
             $newPost->save();
         }
+
+        // We create other posts for the Users seeded using tinker
+        Post::factory()
+            ->count(20)
+            ->create();
     }
 }

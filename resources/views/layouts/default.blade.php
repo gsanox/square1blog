@@ -1,19 +1,15 @@
-<!doctype html>
-<html>
-<head>
-   @include('includes.head')
-</head>
-<body>
-<div class="container">
-   <header class="row">
-       @include('includes.header')
-   </header>
-   <div id="main" class="row">
-           @yield('content')
-   </div>
-   <footer class="row">
-       @include('includes.footer')
-   </footer>
-</div>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS Create Post UI with form plugins</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com/?plugins=forms"></script>
+  </head>
+
+  <body>
+    
+  
