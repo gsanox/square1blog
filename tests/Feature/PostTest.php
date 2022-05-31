@@ -13,7 +13,7 @@ class PostTest extends TestCase
     
     public function test_post_page_can_render()
     {
-        $response = $this->get('/');
+        $response = $this->get('/posts');
 
         $response->assertStatus(200);
     }

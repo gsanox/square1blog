@@ -66,7 +66,7 @@ class PostController extends Controller
         $post->user_id = auth()->user()->id;
         $post->save();
 
-        return $this->index();
+        return $this->index($request);
     }
 
     /**
